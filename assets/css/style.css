@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #feaec9;
+}
+main {
+
+    .part1 {
+        background-image: url(../img/Jowhareh_galleries_poster_72dcd605-540c-4fc9-8e53-7faf9ffc323d.jpeg);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 10px 40px;
+
+       
+
+    
+
+        >div {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-top: 180px;
+            
+
+
+            >h1 {
+                font-size: 100px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            >h2 {
+
+                font-size: 30px;
+                margin-bottom:20px;
+            }
+
+            >h3 {
+                margin-bottom: 200px;
+            }
+
+            >a {
+               >svg {
+                width: 50px;
+                height: 50px;
+               }
+            }
+
+        }
+    }
+
+
+    >.part2 {
+        /* background-color: #feaec9; */
+        /* height: 4200px; */
+        padding: 50px 0;
+        >div {
+            margin-top: 70px;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+           >figure {
+            >img {
+                border-radius: 80px;
+            }
+            >figcaption {
+                width: 320px;
+                text-align: center;
+                >img {
+                    width: 320px;
+                }
+            }
+           }
+
+            &:nth-of-type(1) {
+                width: 60%;
+                margin: auto;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            
+               
+
+            }
+
+
+
+            &:nth-of-type(2) {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 50px;
+                >figure {
+
+                    >img {
+                        width: 320px;
+                        height: 230px;
+                        object-fit: cover;
+                        padding: -20px;
+
+                        
+                    }
+                }
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+ }
+
+
+    >footer {
+
+      >div {
+        &:nth-of-type(1) {
+            width: 100%;
+            height: 60px;
+            background-color: gray;
+            color: white;
+            font-size: 30px;
+            padding-left: 15px;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+    
+         
+             }
+      }
+            
+            
+            
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
